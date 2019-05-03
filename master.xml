@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="https://github.com/Parrot-Developers"/>
+	<default remote="github" revision="master" sync-j="4"/>
+
+	<!-- dragon build  -->
+	<project name="Alchemy" path="build/alchemy"/>
+	<project name="dragon_build" path="build/dragon_build">
+		<linkfile src="root-build.sh" dest="build.sh"/>
+	</project>
+	<project name="apps_tools" path="build/apps_tools"/>
+
+	<!-- Ground SDK products  -->
+	<project name="groundsdk-product" path="products/groundsdk">
+		<linkfile src="android/gradle" dest="groundsdk-android"/>
+		<linkfile src="ios/xcode" dest="groundsdk-ios"/>
+	</project>
+	<project name="pdraw-product" path="products/pdraw"/>
+	<project name="olympe-product" path="products/olympe"/>
+
+	<!-- Ground SDK  -->
+	<project name="groundsdk-android" path="packages/groundsdk-android"/>
+	<project name="groundsdk-ios" path="packages/groundsdk-ios"/>
+
+	<!-- Olympe -->
+	<project name="olympe" path="packages/olympe"/>
+
+	<!-- PDrAW -->
+	<project name="pdraw" path="packages/pdraw"/>
+
+	<!-- Common  -->
+	<project name="arsdk-xml" path="packages/common/arsdk-xml"/>
+	<project name="arsdk-ng" path="packages/common/arsdk-ng"/>
+	<project name="libmux" path="packages/common/libmux"/>
+	<project name="ulog" path="packages/common/ulog"/>
+	<project name="libpomp" path="packages/common/libpomp"/>
+	<project name="libvideo-buffers" path="packages/common/libvideo-buffers"/>
+	<project name="libvideo-decode" path="packages/common/libvideo-decode"/>
+	<project name="libvideo-streaming" path="packages/common/libvideo-streaming"/>
+	<project name="libvideo-metadata" path="packages/common/libvideo-metadata"/>
+	<project name="librtp" path="packages/common/librtp"/>
+	<project name="libsdp" path="packages/common/libsdp"/>
+	<project name="librtsp" path="packages/common/librtsp"/>
+	<project name="libh264" path="packages/common/libh264"/>
+	<project name="libfutils" path="packages/common/libfutils"/>
+	<project name="libpuf" path="packages/common/libpuf"/>
+	<project name="libmp4" path="packages/common/libmp4"/>
+	<project name="libmediacodec-wrapper" path="packages/common/libmediacodec-wrapper"/>
+	<project name="libARMavlink" path="packages/common/libARMavlink"/>
+	<project name="python-native" path="packages/common/python-native"/>
+	<project name="olympe-deps" path="packages/common/olympe-deps"/>
+
+	<!-- Common externals -->
+	<project name="ctypeslib" path="packages/common/ctypeslib"/>
+	<project name="json-c" path="packages/common/json"/>
+	<project name="libtar" path="packages/common/libtar"/>
+	<project name="eigen" path="packages/common/eigen" revision="eigen-3.3-branch"/>
+	<project name="ffmpeg" path="packages/common/ffmpeg" revision="ffmpeg-3.3-branch"/>
+	<project name="mavlink" path="packages/common/mavlink"/>
+</manifest>
