@@ -13,7 +13,7 @@
     <linkfile dest="build.sh" src="root-build.sh"/>
   </project>
   <project name="eigen" path="packages/common/eigen" revision="2e85b96c45183413c0b7893d4d5305e788494531"/>
-  <project name="ffmpeg" path="packages/common/ffmpeg" revision="0ce8fa892369f035b49e4451fd6960b67f9d0a9a"/>
+  <project name="ffmpeg" path="packages/common/ffmpeg" revision="33d4fff9ab4a98b336306c21fc0eeb6d802a8578"/>
   <project name="groundsdk-android" path="packages/groundsdk-android" revision="e1e1dbd2f948524d51e10474d19176116f031643"/>
   <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="257b33fec02b2cd9caa755cff60df3db0f2e7b16"/>
   <project name="groundsdk-product" path="products/groundsdk" revision="2c8c4af734399bf57779824f719c731e34d3ca64">
@@ -38,7 +38,7 @@
   <project name="libvideo-metadata" path="packages/common/libvideo-metadata" revision="e099b858814792e4b61510a15f0d7ccbaaf4397a"/>
   <project name="libvideo-streaming" path="packages/common/libvideo-streaming" revision="22689a7f06d715f054dbf2b464d3363a7b144914"/>
   <project name="mavlink" path="packages/common/mavlink" revision="ed9b5620b539729d0fd3cf1187e1d66047cbb574"/>
-  <project name="olympe" path="packages/olympe" revision="423d2d1713634a0d08da10fb5a07937f6bb9b074"/>
+  <project name="olympe" path="packages/olympe" revision="4f3aa1cfd331c2707b7a55014f59cf565427a257"/>
   <project name="olympe-deps" path="packages/common/olympe-deps" revision="98c5d398d99dba8cca28dd762ef71df5f615bc3f"/>
   <project name="olympe-product" path="products/olympe" revision="a2b30b6bf7543faf8fa57f715cce001cf67d5d59"/>
   <project name="pdraw" path="packages/pdraw" revision="0b510f462f79841dae750ea6650fce929243e8e4"/>
