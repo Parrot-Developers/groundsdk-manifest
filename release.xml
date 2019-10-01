@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/Parrot-Developers" name="github"/>
-
+  
   <default remote="github" revision="master" sync-j="4"/>
-
-  <project name="Alchemy" path="build/alchemy" revision="66d98e0698a4fc4d75d13a42eaffdca84c7728f9"/>
+  
+  <project name="Alchemy" path="build/alchemy" revision="6739748a58c98092674c9f41a4e448d42b8d9b92"/>
   <project name="apps_tools" path="build/apps_tools" revision="20480f5e828022acd9e75ecbfa7c7d8faeef10d4"/>
   <project name="arsdk-ng" path="packages/common/arsdk-ng" revision="1b723cb0a4d612fff332fef220d62eefd7d0cc6e"/>
-  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="4c8ee7befc6e085eee7406a9487fc7b1d1df0012"/>
+  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="50b89414f5fc8fbff33f4080412aa90dfd375178"/>
   <project name="ctypeslib" path="packages/common/ctypeslib" revision="ec3e239627d53b396d51eb2e3e87b56b2df3bf07"/>
   <project name="dragon_build" path="build/dragon_build" revision="91767c3b6561ffc9cb83b91f6eda4f264d4bc80b">
     <linkfile dest="build.sh" src="root-build.sh"/>
   </project>
-  <project name="eigen" path="packages/common/eigen" revision="2e85b96c45183413c0b7893d4d5305e788494531"/>
-  <project name="ffmpeg" path="packages/common/ffmpeg" revision="33d4fff9ab4a98b336306c21fc0eeb6d802a8578"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" revision="e1e1dbd2f948524d51e10474d19176116f031643"/>
-  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="257b33fec02b2cd9caa755cff60df3db0f2e7b16"/>
-  <project name="groundsdk-product" path="products/groundsdk" revision="2c8c4af734399bf57779824f719c731e34d3ca64">
+  <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
+  <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
+  <project name="groundsdk-android" path="packages/groundsdk-android" revision="d59e0d1a5213dc434e5eb2e03ce8c1cf044e318f"/>
+  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="329021181ab84e04e7ca0a6de346242ffd7aca08"/>
+  <project name="groundsdk-product" path="products/groundsdk" revision="7880fe3d5c0521728253f2e9a216f326c9ace28d">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
     <linkfile dest="groundsdk-ios" src="ios/xcode"/>
   </project>
   <project name="json-c" path="packages/common/json" revision="e086ad4319f511746dc2230e420ff47a0df1e586"/>
   <project name="libARMavlink" path="packages/common/libARMavlink" revision="41f616dd66982445eca6ffad326da83a4666f9ff"/>
-  <project name="libfutils" path="packages/common/libfutils" revision="da225520199ebdb649787944c33d5d7c2632e4bd"/>
-  <project name="libh264" path="packages/common/libh264" revision="4482fe3dac7095cf3823f7af1014b69b4a9d864e"/>
+  <project name="libfutils" path="packages/common/libfutils" revision="21d4af590dcbadc4573147a5e0da80e910b6cf63"/>
+  <project name="libh264" path="packages/common/libh264" revision="1f8f14b645a569304951270d19c7c4a24629c9a8"/>
   <project name="libmediacodec-wrapper" path="packages/common/libmediacodec-wrapper" revision="4146384997d8cd1c24f11d079e3651352ad7d57e"/>
-  <project name="libmp4" path="packages/common/libmp4" revision="6e9d9d32753777b78a84d9821cbc1747e547b80d"/>
-  <project name="libmux" path="packages/common/libmux" revision="b75b2c9eabfae352d3a26135443ab3bf5c11b2ce"/>
-  <project name="libpomp" path="packages/common/libpomp" revision="525b1e0192175e51207dd161cda56df70e85e1ee"/>
+  <project name="libmp4" path="packages/common/libmp4" revision="fcdb94c17e5a3c08c3fbd0f7f6af76cae55981b8"/>
+  <project name="libmux" path="packages/common/libmux" revision="f7fa1fce2399bfaa1cb55af9137c2fadc0ccf742"/>
+  <project name="libpomp" path="packages/common/libpomp" revision="9e50f45500f511046aebcc6ba30f109d7c0aba73"/>
   <project name="libpuf" path="packages/common/libpuf" revision="bd639de8efd953436ba64183d2511af23bdaf8c5"/>
   <project name="librtp" path="packages/common/librtp" revision="bf391071f75243290341b506282675fe09eae18a"/>
-  <project name="librtsp" path="packages/common/librtsp" revision="37f0531f4418de7bd6ed5cb0e975bce4518242ea"/>
-  <project name="libsdp" path="packages/common/libsdp" revision="6b799db917013e06c7d67673c4a5ec0695675d29"/>
+  <project name="librtsp" path="packages/common/librtsp" revision="94eca7550d15db087320eb1dcff087cdb510cd3a"/>
+  <project name="libsdp" path="packages/common/libsdp" revision="2a294af9e1bcbdc58b0917d580cb583614b6cbfd"/>
   <project name="libtar" path="packages/common/libtar" revision="da7b886f0af9742653a176006c782af75f2164dd"/>
   <project name="libvideo-buffers" path="packages/common/libvideo-buffers" revision="aa20044772c5bcc4ccacc50944144c2393917498"/>
-  <project name="libvideo-decode" path="packages/common/libvideo-decode" revision="2d4291064ebc14c1c3e10749766191407ab4a284"/>
-  <project name="libvideo-metadata" path="packages/common/libvideo-metadata" revision="e099b858814792e4b61510a15f0d7ccbaaf4397a"/>
-  <project name="libvideo-streaming" path="packages/common/libvideo-streaming" revision="22689a7f06d715f054dbf2b464d3363a7b144914"/>
+  <project name="libvideo-decode" path="packages/common/libvideo-decode" revision="bd672b81b801f4f7569d7485fe2868bbbdb31895"/>
+  <project name="libvideo-metadata" path="packages/common/libvideo-metadata" revision="91e3e0c15763d31368b497ead5b665b80e38b659"/>
+  <project name="libvideo-streaming" path="packages/common/libvideo-streaming" revision="748d3d17cf05512f86254f9a7be1373a65afb958"/>
   <project name="mavlink" path="packages/common/mavlink" revision="ed9b5620b539729d0fd3cf1187e1d66047cbb574"/>
-  <project name="olympe" path="packages/olympe" revision="4f3aa1cfd331c2707b7a55014f59cf565427a257"/>
+  <project name="olympe" path="packages/olympe" revision="0cf65bc971024b6cf03ad1c0a662aea452761534"/>
   <project name="olympe-deps" path="packages/common/olympe-deps" revision="98c5d398d99dba8cca28dd762ef71df5f615bc3f"/>
   <project name="olympe-product" path="products/olympe" revision="a2b30b6bf7543faf8fa57f715cce001cf67d5d59"/>
-  <project name="pdraw" path="packages/pdraw" revision="0b510f462f79841dae750ea6650fce929243e8e4"/>
+  <project name="pdraw" path="packages/pdraw" revision="0bc59cff27dc030a84d615f3057a596d5c85ff0d"/>
   <project name="pdraw-product" path="products/pdraw" revision="e1ec45bf7080409db92bf671d723049080577f6f"/>
   <project name="python-native" path="packages/common/python-native" revision="c7fc068b8421f8707ff414da04742830af3bc90c"/>
   <project name="ulog" path="packages/common/ulog" revision="20bcc141d4dbb752f76f37b6099e556e73e87d9f"/>
