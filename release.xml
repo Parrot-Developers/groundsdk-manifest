@@ -7,16 +7,16 @@
   <project name="Alchemy" path="build/alchemy" revision="6739748a58c98092674c9f41a4e448d42b8d9b92"/>
   <project name="apps_tools" path="build/apps_tools" revision="20480f5e828022acd9e75ecbfa7c7d8faeef10d4"/>
   <project name="arsdk-ng" path="packages/common/arsdk-ng" revision="1b723cb0a4d612fff332fef220d62eefd7d0cc6e"/>
-  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="814f93d529017356e3d4f0b791bf7e19e96eab1a"/>
+  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="4923185f3281a1d03fb783bcaeae003873f8f8d5"/>
   <project name="ctypeslib" path="packages/common/ctypeslib" revision="ec3e239627d53b396d51eb2e3e87b56b2df3bf07"/>
   <project name="dragon_build" path="build/dragon_build" revision="91767c3b6561ffc9cb83b91f6eda4f264d4bc80b">
     <linkfile dest="build.sh" src="root-build.sh"/>
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" revision="9637aa9bc015ebe3367369d24c66f12e2a8d57de"/>
-  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="7e6b023be22a7687795d5438be4d4667761092e9"/>
-  <project name="groundsdk-product" path="products/groundsdk" revision="7880fe3d5c0521728253f2e9a216f326c9ace28d">
+  <project name="groundsdk-android" path="packages/groundsdk-android" revision="97afae0830a7729a424d929d83f218275c4ce46d"/>
+  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="d55a1e9f418fa342cee81ae0f968a150c2be376b"/>
+  <project name="groundsdk-product" path="products/groundsdk" revision="8bab1ba692d8eb58206f5e8349fd8e5c9499bbf5">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
     <linkfile dest="groundsdk-ios" src="ios/xcode"/>
   </project>
@@ -30,7 +30,7 @@
   <project name="libpomp" path="packages/common/libpomp" revision="9e50f45500f511046aebcc6ba30f109d7c0aba73"/>
   <project name="libpuf" path="packages/common/libpuf" revision="bd639de8efd953436ba64183d2511af23bdaf8c5"/>
   <project name="librtp" path="packages/common/librtp" revision="bf391071f75243290341b506282675fe09eae18a"/>
-  <project name="librtsp" path="packages/common/librtsp" revision="94eca7550d15db087320eb1dcff087cdb510cd3a"/>
+  <project name="librtsp" path="packages/common/librtsp" revision="8644e955557d4bc9660df47929e8d7fefb3bd0e7"/>
   <project name="libsdp" path="packages/common/libsdp" revision="2a294af9e1bcbdc58b0917d580cb583614b6cbfd"/>
   <project name="libtar" path="packages/common/libtar" revision="da7b886f0af9742653a176006c782af75f2164dd"/>
   <project name="libvideo-buffers" path="packages/common/libvideo-buffers" revision="aa20044772c5bcc4ccacc50944144c2393917498"/>
