@@ -4,19 +4,19 @@
   
   <default remote="github" revision="master" sync-j="4"/>
   
-  <project name="Alchemy" path="build/alchemy" revision="6739748a58c98092674c9f41a4e448d42b8d9b92"/>
-  <project name="apps_tools" path="build/apps_tools" revision="20480f5e828022acd9e75ecbfa7c7d8faeef10d4"/>
+  <project name="Alchemy" path="build/alchemy" revision="cd64d4480ecf48be74f6af3fdfc38d4d4bf4b850"/>
+  <project name="apps_tools" path="build/apps_tools" revision="4d64be9ed2136dc3b037f2821ab635d91192f6f5"/>
   <project name="arsdk-ng" path="packages/common/arsdk-ng" revision="1b723cb0a4d612fff332fef220d62eefd7d0cc6e"/>
-  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="4923185f3281a1d03fb783bcaeae003873f8f8d5"/>
-  <project name="ctypeslib" path="packages/common/ctypeslib" revision="ec3e239627d53b396d51eb2e3e87b56b2df3bf07"/>
-  <project name="dragon_build" path="build/dragon_build" revision="91767c3b6561ffc9cb83b91f6eda4f264d4bc80b">
+  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="2a4b760e6dc288f975a46f25a9940777fabb390c"/>
+  <project name="ctypeslib" path="packages/common/ctypeslib" revision="1147d4bbd2e1b2c983a6313b7f5828d36ce458cf"/>
+  <project name="dragon_build" path="build/dragon_build" revision="ad83ff7ed8c8f459a79eff0af0688e4843bd9702">
     <linkfile dest="build.sh" src="root-build.sh"/>
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" revision="97afae0830a7729a424d929d83f218275c4ce46d"/>
-  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="d55a1e9f418fa342cee81ae0f968a150c2be376b"/>
-  <project name="groundsdk-product" path="products/groundsdk" revision="8bab1ba692d8eb58206f5e8349fd8e5c9499bbf5">
+  <project name="groundsdk-android" path="packages/groundsdk-android" revision="ecb5bfaaef704ff605e229557adcc0ab8181fa7e"/>
+  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="7a372119ef0b1bc8ace8ac249a304f2697024b94"/>
+  <project name="groundsdk-product" path="products/groundsdk" revision="a15dac542dc07d6e1a8b5165abf2e8ab5f2c8d44">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
     <linkfile dest="groundsdk-ios" src="ios/xcode"/>
   </project>
@@ -27,8 +27,8 @@
   <project name="libmediacodec-wrapper" path="packages/common/libmediacodec-wrapper" revision="4146384997d8cd1c24f11d079e3651352ad7d57e"/>
   <project name="libmp4" path="packages/common/libmp4" revision="fcdb94c17e5a3c08c3fbd0f7f6af76cae55981b8"/>
   <project name="libmux" path="packages/common/libmux" revision="f7fa1fce2399bfaa1cb55af9137c2fadc0ccf742"/>
-  <project name="libpomp" path="packages/common/libpomp" revision="9e50f45500f511046aebcc6ba30f109d7c0aba73"/>
-  <project name="libpuf" path="packages/common/libpuf" revision="bd639de8efd953436ba64183d2511af23bdaf8c5"/>
+  <project name="libpomp" path="packages/common/libpomp" revision="8b8de54880d0e433f30fa7c4a1eadfb7de72df32"/>
+  <project name="libpuf" path="packages/common/libpuf" revision="a35ed88f49864d337c4077f20ac0a9117c5eef09"/>
   <project name="librtp" path="packages/common/librtp" revision="bf391071f75243290341b506282675fe09eae18a"/>
   <project name="librtsp" path="packages/common/librtsp" revision="8644e955557d4bc9660df47929e8d7fefb3bd0e7"/>
   <project name="libsdp" path="packages/common/libsdp" revision="2a294af9e1bcbdc58b0917d580cb583614b6cbfd"/>
@@ -37,12 +37,14 @@
   <project name="libvideo-decode" path="packages/common/libvideo-decode" revision="bd672b81b801f4f7569d7485fe2868bbbdb31895"/>
   <project name="libvideo-metadata" path="packages/common/libvideo-metadata" revision="91e3e0c15763d31368b497ead5b665b80e38b659"/>
   <project name="libvideo-streaming" path="packages/common/libvideo-streaming" revision="748d3d17cf05512f86254f9a7be1373a65afb958"/>
+  <project name="logger" path="packages/common/logger" revision="9f5f66b1ad8637759721885726042442555b79a5"/>
+  <project name="lz4" path="packages/common/lz4" revision="1114967101628f3a6995d56a7aa0881f90d5135c"/>
   <project name="mavlink" path="packages/common/mavlink" revision="ed9b5620b539729d0fd3cf1187e1d66047cbb574"/>
-  <project name="olympe" path="packages/olympe" revision="0cf65bc971024b6cf03ad1c0a662aea452761534"/>
-  <project name="olympe-deps" path="packages/common/olympe-deps" revision="98c5d398d99dba8cca28dd762ef71df5f615bc3f"/>
-  <project name="olympe-product" path="products/olympe" revision="a2b30b6bf7543faf8fa57f715cce001cf67d5d59"/>
-  <project name="pdraw" path="packages/pdraw" revision="0bc59cff27dc030a84d615f3057a596d5c85ff0d"/>
+  <project name="olympe" path="packages/olympe" revision="f0adc9274d5052efa6586a288379439bdb0a13e9"/>
+  <project name="olympe-deps" path="packages/common/olympe-deps" revision="24b5fa603cdabf62576cdd511a502f418f32fb29"/>
+  <project name="olympe-product" path="products/olympe" revision="3c57620547ea2a388bd4594986f0c04cbc9b00ad"/>
+  <project name="pdraw" path="packages/pdraw" revision="75757183c7f4dfc0bf8886e17a94b4599550b8de"/>
   <project name="pdraw-product" path="products/pdraw" revision="e1ec45bf7080409db92bf671d723049080577f6f"/>
   <project name="python-native" path="packages/common/python-native" revision="c7fc068b8421f8707ff414da04742830af3bc90c"/>
-  <project name="ulog" path="packages/common/ulog" revision="20bcc141d4dbb752f76f37b6099e556e73e87d9f"/>
+  <project name="ulog" path="packages/common/ulog" revision="827f6fd11ad41abf49ef9e1228110265ccc2a8ab"/>
 </manifest>

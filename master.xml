@@ -49,6 +49,7 @@
 	<project name="libARMavlink" path="packages/common/libARMavlink"/>
 	<project name="python-native" path="packages/common/python-native"/>
 	<project name="olympe-deps" path="packages/common/olympe-deps"/>
+	<project name="logger" path="packages/common/logger"/>
 
 	<!-- Common externals -->
 	<project name="ctypeslib" path="packages/common/ctypeslib"/>
@@ -57,4 +58,5 @@
 	<project name="eigen" path="packages/common/eigen" revision="eigen-3.3-branch"/>
 	<project name="ffmpeg" path="packages/common/ffmpeg" revision="ffmpeg-3.3-branch"/>
 	<project name="mavlink" path="packages/common/mavlink"/>
+	<project name="lz4" path="packages/common/lz4"/>
 </manifest>
