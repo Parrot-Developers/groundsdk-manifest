@@ -9,7 +9,7 @@
   <project name="arsdk-ng" path="packages/common/arsdk-ng" revision="1b723cb0a4d612fff332fef220d62eefd7d0cc6e"/>
   <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="2a4b760e6dc288f975a46f25a9940777fabb390c"/>
   <project name="ctypeslib" path="packages/common/ctypeslib" revision="1147d4bbd2e1b2c983a6313b7f5828d36ce458cf"/>
-  <project name="dragon_build" path="build/dragon_build" revision="ad83ff7ed8c8f459a79eff0af0688e4843bd9702">
+  <project name="dragon_build" path="build/dragon_build" revision="165660b6e59f1c2d1ca904f41c21b513a2bcd95d">
     <linkfile dest="build.sh" src="root-build.sh"/>
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
