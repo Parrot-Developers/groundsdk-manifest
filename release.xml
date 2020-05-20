@@ -6,17 +6,17 @@
   
   <project name="Alchemy" path="build/alchemy" revision="cd64d4480ecf48be74f6af3fdfc38d4d4bf4b850"/>
   <project name="apps_tools" path="build/apps_tools" revision="4d64be9ed2136dc3b037f2821ab635d91192f6f5"/>
-  <project name="arsdk-ng" path="packages/common/arsdk-ng" revision="1b723cb0a4d612fff332fef220d62eefd7d0cc6e"/>
-  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="2a4b760e6dc288f975a46f25a9940777fabb390c"/>
+  <project name="arsdk-ng" path="packages/common/arsdk-ng" revision="0f94ef325b7872723c773ececa0fc4835ba4e188"/>
+  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="0d5734c81c83361f2a4dc696d361cca8bb356e07"/>
   <project name="ctypeslib" path="packages/common/ctypeslib" revision="1147d4bbd2e1b2c983a6313b7f5828d36ce458cf"/>
   <project name="dragon_build" path="build/dragon_build" revision="165660b6e59f1c2d1ca904f41c21b513a2bcd95d">
     <linkfile dest="build.sh" src="root-build.sh"/>
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" revision="ecb5bfaaef704ff605e229557adcc0ab8181fa7e"/>
-  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="7a372119ef0b1bc8ace8ac249a304f2697024b94"/>
-  <project name="groundsdk-product" path="products/groundsdk" revision="a15dac542dc07d6e1a8b5165abf2e8ab5f2c8d44">
+  <project name="groundsdk-android" path="packages/groundsdk-android" revision="64603f9786fbdde8a2123b028b929276aff8baa6"/>
+  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="68c5956dc7c36340d11b783cda996a5872ef2aab"/>
+  <project name="groundsdk-product" path="products/groundsdk" revision="f65d4ad8c7361a3ebf27f44630794dad1c69bd7c">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
     <linkfile dest="groundsdk-ios" src="ios/xcode"/>
   </project>
@@ -37,14 +37,14 @@
   <project name="libvideo-decode" path="packages/common/libvideo-decode" revision="bd672b81b801f4f7569d7485fe2868bbbdb31895"/>
   <project name="libvideo-metadata" path="packages/common/libvideo-metadata" revision="91e3e0c15763d31368b497ead5b665b80e38b659"/>
   <project name="libvideo-streaming" path="packages/common/libvideo-streaming" revision="748d3d17cf05512f86254f9a7be1373a65afb958"/>
-  <project name="logger" path="packages/common/logger" revision="9f5f66b1ad8637759721885726042442555b79a5"/>
+  <project name="logger" path="packages/common/logger" revision="250b8e83f2c93434d6f613f1000a6ae9891aa567"/>
   <project name="lz4" path="packages/common/lz4" revision="1114967101628f3a6995d56a7aa0881f90d5135c"/>
   <project name="mavlink" path="packages/common/mavlink" revision="ed9b5620b539729d0fd3cf1187e1d66047cbb574"/>
-  <project name="olympe" path="packages/olympe" revision="f0adc9274d5052efa6586a288379439bdb0a13e9"/>
+  <project name="olympe" path="packages/olympe" revision="c4883c3fd9164e40ed10df556fa1b0037f06cbd7"/>
   <project name="olympe-deps" path="packages/common/olympe-deps" revision="24b5fa603cdabf62576cdd511a502f418f32fb29"/>
   <project name="olympe-product" path="products/olympe" revision="3c57620547ea2a388bd4594986f0c04cbc9b00ad"/>
   <project name="pdraw" path="packages/pdraw" revision="75757183c7f4dfc0bf8886e17a94b4599550b8de"/>
   <project name="pdraw-product" path="products/pdraw" revision="e1ec45bf7080409db92bf671d723049080577f6f"/>
-  <project name="python-native" path="packages/common/python-native" revision="c7fc068b8421f8707ff414da04742830af3bc90c"/>
+  <project name="python-native" path="packages/common/python-native" revision="ef10a5abb9c4f66bf1fdf472ced4a4965cd569c1"/>
   <project name="ulog" path="packages/common/ulog" revision="827f6fd11ad41abf49ef9e1228110265ccc2a8ab"/>
 </manifest>
