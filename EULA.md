@@ -1,6 +1,6 @@
 #  PARROT GROUND SDK
 **End User License Agreement
-(Version n°1- February 2020)**
+(Version n°1.1- June 2020)**
 
 Your use of the PARROT Ground SDK (hereinafter referred to as “SDK”) is 
 expressly conditioned on Your acceptance of the terms and conditions of this 
@@ -95,7 +95,7 @@ reserved.”
 2.3 Licenses applicable to SDK Components:
 In case of discrepancy between the following terms and other parts of the EULA, 
 the following terms shall prevail. The following terms that are applicable to a 
-specific SDK Components but not written elsewhere in the EULA applies only to 
+specific SDK Components but not written elsewhere in the EULA apply only to 
 the said SDK Component.
 
 - Ground SDK Mobile, PDrAW and OLYMPE are released under BSD 3 license detailed 
@@ -179,20 +179,18 @@ You shall not or not allow any third party to use the SDK in any way that
 violates any applicable law or regulation and more generally, assist or allow 
 anyone to do anything that the EULA prohibits You from doing.
 
-## 3. Reservation of Rights
+## 3. Reservation of rights
 
 You acknowledge and agree that the form and nature of the SDK that PARROT 
 provides may change without prior notice to You and that future versions of the 
 SDK may be incompatible with applications developed on previous versions of the 
-SDK. You acknowledge and agree that PARROT may stop providing the SDK or any 
-features of the SDK permanently or temporarily to You or users generally at 
-PARROT’s sole discretion, without prior notice to You.
+SDK.
 
 ## 4. Your Application Product and Use of the SDK
 
 4.1 Your Application Product shall belong to You exclusively.
 
-4.2 You are solely liable for access to: (a) any data, content, or resources 
+4.2 You are solely liable for : (a) access to any data, content, or resources 
 that You create, transmit, or display through the Applications Product You 
 develop on or with the SDK, and for the consequences of Your actions by doing 
 so; and (b) any breach of Your obligations under this EULA, any applicable 
@@ -203,7 +201,7 @@ regulation, and for the consequences of any such breach.
 ADVERSELY AFFECT THE OPERATION AND CONTROL OF THE PARROT DRONE WHICH MAY CAUSE 
 PROPERTY DAMAGE, SERIOUS INJURY AND/OR DEATH.
 
-## 5. Proprietary Rights
+## 5. Proprietary rights
 
 The SDK is protected by copyright and other intellectual property laws. You 
 agree that the SDK belongs to PARROT. You agree that You neither own nor hereby 
@@ -232,21 +230,18 @@ any disclosure on an unrestricted basis without notifying or compensating You.
 You release PARROT from all liability and obligations that may arise from the 
 receipt, review, use, or disclosure of any portion of any of Your disclosure.
 
-## 7. No Support
+## 7. No support or maintenance obligation
 
 This EULA does not entitle You to receive from PARROT or its licensors 
 hard-copy documentation, support, telephone assistance, or enhancements or 
-updates to the SDK.
+updates to the SDK. PARROT has no obligation to provide any maintenance for the 
+SDK.
 
-## 8. Term and Termination
+## 8. Termination
 
-This EULA and Your right to use the SDK may be terminated by You or by PARROT 
-at any time upon written notice. This EULA automatically terminates if You fail 
-to comply with its terms and conditions. Immediately upon termination, You 
-shall return or destroy all copies of the SDK in Your possession, custody, or 
-control and, if requested by PARROT, You shall certify to PARROT in writing 
-that such return or destruction has occurred. The following Sections of this 
-EULA survive any expiration or termination hereof: 5 through 15 (inclusive).
+This EULA automatically terminates if You fail to comply with its terms and 
+conditions. The following Sections of this EULA survive any expiration or 
+termination hereof: 5 through 16 (inclusive).
 
 ## 9. Disclaimer of warranties
 
@@ -282,7 +277,7 @@ EXPENSES (INCLUDING REASONABLE ATTORNEYS’ FEES) ARISING OUT OF OR ACCRUING FRO
 (B) ANY APPLICATION PRODUCT YOU DEVELOP ON OR WITH THE SDK; AND 
 (C) YOUR NONCOMPLIANCE WITH ANY TERM OF THIS EULA.
 
-## 12. Injunctive Relief
+## 12. Injunctive relief
 
 You acknowledge and agree that Your breach or threatened breach of this EULA 
 shall cause PARROT irreparable damage for which recovery of money damages would 
@@ -290,7 +285,7 @@ not be sufficient and that PARROT therefore will be entitled to seek injunctive
 relief and/or any other appropriate relief in any court of competent 
 jurisdiction, to protect its rights under this EULA.
 
-## 13. Export Control
+## 13. Export control
 
 The transfer of the SDK across national boundaries may be subject to 
 restrictions. You undertake to comply with all applicable international laws 
@@ -308,7 +303,13 @@ and against any claim, demand, suit or proceeding, and all damages,
 liabilities, costs and expenses arising from Your failure to comply with this 
 Section.
 
-## 14. Governing Law and Disputes resolutions
+## 14. Compliance with laws
+You agree not to use the SDK for any unlawful or illegal activity, nor to 
+develop any Application that would commit or facilitate the commission of a 
+crime, or other tortious, unlawful, or illegal act. 
+
+
+## 15. Governing law and disputes resolutions
 
 The validity, interpretation, and performance of the EULA shall be controlled 
 by and construed under the laws of France, without regards to its conflicts of 
@@ -319,7 +320,7 @@ Notwithstanding the foregoing, either Party shall at all times have the right
 to commence proceedings in any other court of its choice for interim injunctive 
 relief as provided for in Section 12 of this EULA.
 
-## 15. Miscellaneous
+## 16. Miscellaneous
 
 **Entire agreement.** This EULA, together with any amendments and any 
 additional agreements You may enter into with PARROT in connection with the use 
