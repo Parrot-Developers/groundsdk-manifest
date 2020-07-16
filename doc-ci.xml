@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="github" fetch="https://github.com/Parrot-Developers"/>
+    <remote name="github" fetch="https://github.com/Parrot-Developers"/>
+    <remote name="github-private" fetch="ssh://git@github.com/Parrot-Developers"/>
+
 	<default remote="github" revision="master" sync-j="4"/>
 
 	<!-- dragon build  -->
@@ -15,7 +17,7 @@
 		<linkfile src="android/gradle" dest="groundsdk-android"/>
 		<linkfile src="ios/xcode" dest="groundsdk-ios"/>
 	</project>
-	<project name="groundsdk-doc-product" path="products/doc"/>
+	<project name="groundsdk-doc-product" path="products/doc" remote="github-private"/>
 	<project name="pdraw-product" path="products/pdraw"/>
 	<project name="olympe-product" path="products/olympe"/>
 
