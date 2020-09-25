@@ -25,6 +25,10 @@
 	<project name="groundsdk-android" path="packages/groundsdk-android"/>
 	<project name="groundsdk-ios" path="packages/groundsdk-ios"/>
 
+	<!-- Ground SDK Samples  -->
+	<project name="groundsdk-android-samples" path="packages/samples/groundsdk-android"/>
+	<project name="groundsdk-ios-samples" path="packages/samples/groundsdk-ios"/>
+
 	<!-- Olympe -->
 	<project name="olympe" path="packages/olympe"/>
 
