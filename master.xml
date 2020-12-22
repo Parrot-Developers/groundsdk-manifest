@@ -49,7 +49,7 @@
 	<project name="libARMavlink" path="packages/common/libARMavlink"/>
 	<project name="python-native" path="packages/common/python-native"/>
 	<project name="olympe-deps" path="packages/common/olympe-deps"/>
-	<project name="logger" path="packages/common/logger"/>
+	<project name="logger" path="packages/common/logger" revision="gsdk-1.0-branch"/>
 
 	<!-- Common externals -->
 	<project name="ctypeslib" path="packages/common/ctypeslib"/>
