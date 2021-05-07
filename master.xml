@@ -53,7 +53,7 @@
 
 	<!-- Common externals -->
 	<project name="ctypeslib" path="packages/common/ctypeslib"/>
-	<project name="json-c" path="packages/common/json"/>
+	<project name="json-c" path="packages/common/json" revision="json-0.15-branch"/>
 	<project name="libtar" path="packages/common/libtar"/>
 	<project name="eigen" path="packages/common/eigen" revision="eigen-3.3-branch"/>
 	<project name="ffmpeg" path="packages/common/ffmpeg" revision="ffmpeg-3.3-branch"/>
