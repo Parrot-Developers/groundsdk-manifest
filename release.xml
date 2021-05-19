@@ -7,7 +7,7 @@
   <project name="Alchemy" path="build/alchemy" revision="d95b3c38cd37814a1b98d0bbf813de7adaaecfbc"/>
   <project name="apps_tools" path="build/apps_tools" revision="4d64be9ed2136dc3b037f2821ab635d91192f6f5"/>
   <project name="arsdk-ng" path="packages/common/arsdk-ng" revision="da8ebf5394f837809bdbdfb503baa23f714b7763"/>
-  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="95eb04e62ce349f1d16430582a6146041a364c41"/>
+  <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="acbd609ba4af0534b39a486c93e06c5c05b3b976"/>
   <project name="ctypeslib" path="packages/common/ctypeslib" revision="421d35cac4a58ed65067cc0fa26e7d9825e7120c"/>
   <project name="dragon_build" path="build/dragon_build" revision="55d7e2559debf0d70c4cb3eb49607260bd7bad94">
     <linkfile dest="build.sh" src="root-build.sh"/>
