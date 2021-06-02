@@ -56,6 +56,7 @@
 	<project name="python-native" path="packages/common/python-native"/>
 	<project name="olympe-deps" path="packages/common/olympe-deps"/>
 	<project name="logger" path="packages/common/logger"/>
+	<project name="logness" path="packages/common/logness"/>
 
 	<!-- Common externals -->
 	<project name="ctypeslib" path="packages/common/ctypeslib"/>
