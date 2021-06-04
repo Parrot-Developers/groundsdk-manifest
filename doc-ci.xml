@@ -53,6 +53,7 @@
 	<project name="libmp4" path="packages/common/libmp4"/>
 	<project name="libmediacodec-wrapper" path="packages/common/libmediacodec-wrapper"/>
 	<project name="libARMavlink" path="packages/common/libARMavlink"/>
+	<project name="protobuf-extensions" path="packages/common/protobuf-extensions"/>
 	<project name="python-native" path="packages/common/python-native"/>
 	<project name="olympe-deps" path="packages/common/olympe-deps"/>
 	<project name="logger" path="packages/common/logger"/>
