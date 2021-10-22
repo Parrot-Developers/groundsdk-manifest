@@ -1,8 +1,8 @@
 #  PARROT GROUND SDK
 **End User License Agreement
-(Version n°1.1- June 2020)**
+(Version n°2.0- October 2021)**
 
-Your use of the PARROT Ground SDK (hereinafter referred to as “SDK”) is 
+Your use of the PARROT SDK (hereinafter referred to as “SDK”) is 
 expressly conditioned on Your acceptance of the terms and conditions of this 
 end user license agreement (**“EULA”**).
 If You agree to the terms and conditions of the EULA, You agree to use the SDK 
@@ -37,33 +37,37 @@ indirectly controls, is under common control with, or is controlled by, where
 equity in such entity or otherwise the ability to direct the management of such 
 entity.
 
-**“Application Product”** means an application developed by You using the SDK 
-that is operable on, or interfaces to, the PARROT Drone.
-
-**“Authorized Purpose”** means to evaluate, test and use the SDK to design, 
-test and develop the Application Product and its functionality and 
-interoperability with the PARROT Drone and to sell or otherwise distribute the 
-Application Product, but such right is limited to sale or distribution only for 
-use with a PARROT Drone.
+**“Application"** means any code, algorithm or application developed by You 
+using the SDK that is operable on, or interfaces to, the adequate 
+PARROT Platform.
 
 **“PARROT”** means Parrot Drones SAS, a French corporation, located at 174 Quai 
 de Jemmapes, 75010, Paris (France), acting on its behalf and on behalf of its 
 Affiliates (individually and collectively, “Parrot”).
 
-**“PARROT Drone”** means any PARROT hardware, software, and services, such as 
+**“PARROT Platforms** means any PARROT hardware, software, and services, such 
+as 
 unmanned aerial vehicles, flight controllers, sensors, cameras, gimbals, remote 
 controllers, accessories, etc.
 
+**“Party” or “Parties”** means You and/or PARROT.
+
 **“SDK”** or “Software Development Kit” means software (source code and object 
 code), applications, tools, sample code, templates, fonts, logos, icons, 
-images, libraries, interfaces, Updates, documentation,application programming 
+images, libraries, interfaces, updates, documentation,application programming 
 interfaces (APIs), information, data, files, and other materials, whether 
 tangible or intangible, in whatever form or medium provided to You by PARROT 
-for use by You in connection with Your Application Product. It is composed of 
-Ground SDK Mobile, PDrAW, OLYMPE and SPHINX (**“SDK Components”**).
+for use by You in connection with Your Application. It is composed of :
+* OpenFlight : open-source core of PARROT FreeFlight 7 application.
+* Ground SDK : Ground Control Station (GCS) framework for mobile devices.
+* Air SDK : framework to load and run code directly on PARROT Platforms.
+* PDrAW : advanced video viewer and embedded metadata for PARROT Platforms.
+* OLYMPE : Python framework for PARROT Platforms. 
+* SPHINX : drone simulation tool for PARROT Platforms.
+* Altogether **“SDK Components”**.
 
-**“Third-Party Component”** means software, interfaces and firmware licensed by 
-PARROT from a third-party for incorporation into the SDK and distributed as an 
+**“Third-Party Component”** means software, interfaces and firmware belonging to
+a third-party for incorporation into the SDK and distributed as an 
 integral part of the SDK, as applicable.
 
 **“Use”** or **“Using”** means to download, install, activate, access or 
@@ -76,21 +80,23 @@ under this EULA.
 
 2.1 The SDK is licensed, not sold, to You by PARROT. Subject to the compliance 
 with the EULA, PARROT grants You a worldwide, non-exclusive, non-transferable, 
-royalty free and non-sublicensable right to : (i) use the SDK for the 
-Authorized Purpose, (ii) create the Application Product, (iii) copy and 
-reproduce the SDK, as necessary for the exercise of the license grants and (iv) 
-sell, offer to sell, lease, offer to lease or otherwise distribute or dispose 
-of the Application Product for use with the Parrot Drone. You may only use the 
-SDK in exercise of Your license grants.
+royalty free and non-sublicensable right to : (i) use the SDK  to design, test 
+and develop the Application and its functionality and interoperability with the 
+adequate PARROT Platform, (ii) copy and reproduce the SDK, as necessary for 
+the exercise of the license grants and (iii) sell, offer to sell, lease, offer 
+to lease or otherwise distribute or dispose of the Application only for use 
+with the adequate Parrot Platform.
 
-2.2 You may distribute Your Application Product based on the SDK, provided that 
-You shall: (1) not distribute, link, or integrate any part of the SDK such that 
-the SDK becomes subject to another open source license ; (2) not modify, 
-reverse engineer, disassemble or decompile any part of the SDK that is not 
-provided as source code; (3) include the following copyright notice within Your 
-Application Product’s source code in the same locations as Your own copyright 
-notice: “Portions copyright (c) 2019–Present PARROT DRONES SAS. All rights 
-reserved.”
+You may only use the SDK in exercise of Your license grants.
+
+2.2 You may distribute Your Application based on the SDK, provided that You 
+shall: (1) not distribute, link, or integrate any part of the SDK such that the 
+SDK or any of the SDK Components becomes subject to another open source license 
+; (2) not modify, reverse engineer, disassemble or decompile any part of the 
+SDK that is not provided as source code; (3) include the following copyright 
+notice within Your Application ’s source code in the same locations as Your own 
+copyright notice: “Portions copyright (c) 2019–Present PARROT DRONES SAS. All 
+rights reserved.”
 
 2.3 Licenses applicable to SDK Components:
 In case of discrepancy between the following terms and other parts of the EULA, 
@@ -98,8 +104,8 @@ the following terms shall prevail. The following terms that are applicable to a
 specific SDK Components but not written elsewhere in the EULA apply only to 
 the said SDK Component.
 
-- Ground SDK Mobile, PDrAW and OLYMPE are released under BSD 3 license detailed 
-below:
+- OpenFlight, Ground SDK, Air SDK, PDrAW and OLYMPE are released under BSD 3 
+license detailed below:
 
 “Copyright © 2019, PARROT DRONES SAS
 Redistribution and use in source and binary forms, with or without 
@@ -197,9 +203,9 @@ so; and (b) any breach of Your obligations under this EULA, any applicable
 third-party contract or terms of service, or any applicable law, rule, or 
 regulation, and for the consequences of any such breach.
 
-4.3 YOU ACKNOWLEDGE AND YOU ARE AWARE THAT ANY MODIFICATION OF THE SDK MAY 
-ADVERSELY AFFECT THE OPERATION AND CONTROL OF THE PARROT DRONE WHICH MAY CAUSE 
-PROPERTY DAMAGE, SERIOUS INJURY AND/OR DEATH.
+4.3 YOU ACKNOWLEDGE AND YOU ARE AWARE THAT ANY MODIFICATION OF THE SDK AND/OR 
+ANY APPLICATION MAY ADVERSELY AFFECT THE OPERATION AND CONTROL OF THE PARROT 
+PLATFORM WHICH MAY CAUSE PROPERTY DAMAGE, SERIOUS INJURY AND/OR DEATH.
 
 ## 5. Proprietary rights
 
@@ -218,7 +224,7 @@ rights to such content.
 ## 6. No confidentiality on Your disclosure
 
 PARROT works with many application developers and some of their products may be 
-similar to or compete with Your Application Product. PARROT may also be 
+similar to or compete with Your Application. PARROT may also be 
 developing its own similar or competing applications or may decide to do so in 
 the future. To avoid potential misunderstandings, PARROT CANNOT AGREE, AND 
 EXPRESSLY DISCLAIMS, ANY CONFIDENTIALITY OBLIGATIONS OR USE RESTRICTIONS, 
@@ -233,9 +239,8 @@ receipt, review, use, or disclosure of any portion of any of Your disclosure.
 ## 7. No support or maintenance obligation
 
 This EULA does not entitle You to receive from PARROT or its licensors 
-hard-copy documentation, support, telephone assistance, or enhancements or 
-updates to the SDK. PARROT has no obligation to provide any maintenance for the 
-SDK.
+hard-copy documentation, support, telephone assistance, enhancements or updates 
+to the SDK. PARROT has no obligation to provide any maintenance for the SDK.
 
 ## 8. Termination
 
@@ -304,9 +309,10 @@ liabilities, costs and expenses arising from Your failure to comply with this
 Section.
 
 ## 14. Compliance with laws
-You agree not to use the SDK for any unlawful or illegal activity, nor to 
-develop any Application that would commit or facilitate the commission of a 
-crime, or other tortious, unlawful, or illegal act. 
+
+You agree not to use the SDK for any unlawful or illegal activity, nor that 
+Your Developments would facilitate the commission of a crime, or other 
+tortious, unlawful, or illegal act. 
 
 
 ## 15. Governing law and disputes resolutions
