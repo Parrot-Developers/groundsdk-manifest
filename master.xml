@@ -23,7 +23,7 @@
 	<project name="groundsdk-ios" path="packages/groundsdk-ios"/>
 
 	<!-- Olympe -->
-	<project name="olympe" path="packages/olympe"/>
+	<project name="olympe" path="packages/olympe" revision="gsdk-1.0-branch"/>
 
 	<!-- PDrAW -->
 	<project name="pdraw" path="packages/pdraw"/>
