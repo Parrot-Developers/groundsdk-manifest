@@ -1,10 +1,11 @@
-#  PARROT GROUND SDK
+#  PARROT SDK
 **End User License Agreement
-(Version n°2.0- October 2021)**
+(Version n°3.0 - April 2023)**
 
 Your use of the PARROT SDK (hereinafter referred to as “SDK”) is 
 expressly conditioned on Your acceptance of the terms and conditions of this 
 end user license agreement (**“EULA”**).
+
 If You agree to the terms and conditions of the EULA, You agree to use the SDK 
 solely in accordance with the terms and conditions of this EULA, and You agree 
 that You are bound by and are a party to this EULA. If You are agreeing to be 
@@ -12,17 +13,20 @@ bound by this agreement on behalf of a company, organization, or other entity
 (**“Company”**) , then (i)“You includes You and that Company, and (ii) You 
 represent and warrant that You are an authorized representative of such Company 
 with the authority to bind such Company to this EULA.
+
 If You do not agree to the terms and conditions of the EULA, or if You do not 
-the legal capacity or if You are not an authorized representative of the 
+have the legal capacity or if You are not an authorized representative of the 
 Company to enter into the EULA, do not download, install, access, and/or 
 otherwise Use, the SDK or do not otherwise click on any button or other 
 mechanisms designed to acknowledge acceptance of terms.
+
 Depending on the circumstances, the EULA may be complemented by supplemental 
 license terms and specific terms made available in connection with surfing 
 PARROT website, ordering, installing, downloading, accessing or using any 
 PARROT software. In case of conflict between the EULA and such additional 
 terms, the latter shall prevail. You agree to comply with the EULA in its 
 entirety.
+
 PARROT reserves the right to amend the EULA at any time. Your continued Use of 
 the SDK after notification of such amendment will constitute acceptance of such 
 amendments.
@@ -61,9 +65,10 @@ for use by You in connection with Your Application. It is composed of :
 * OpenFlight : open-source core of PARROT FreeFlight 7 application.
 * Ground SDK : Ground Control Station (GCS) framework for mobile devices.
 * Air SDK : framework to load and run code directly on PARROT Platforms.
-* PDrAW : advanced video viewer and embedded metadata for PARROT Platforms.
-* OLYMPE : Python framework for PARROT Platforms. 
-* SPHINX : drone simulation tool for PARROT Platforms.
+* Ground SDK Tools : desktop tools including an advanced video viewer (PDrAW) 
+and embedded photo and video metadata tools for PARROT Platforms.
+* Olympe : Python framework for PARROT Platforms.
+* Sphinx : drone simulation tool for PARROT Platforms.
 * Altogether **“SDK Components”**.
 
 **“Third-Party Component”** means software, interfaces and firmware belonging to
@@ -104,8 +109,8 @@ the following terms shall prevail. The following terms that are applicable to a
 specific SDK Components but not written elsewhere in the EULA apply only to 
 the said SDK Component.
 
-- OpenFlight, Ground SDK, Air SDK, PDrAW and OLYMPE are released under BSD 3 
-license detailed below:
+- OpenFlight, Ground SDK, Air SDK, Ground SDK Tools and Olympe are released 
+under BSD 3 license detailed below:
 
 “Copyright © 2019, PARROT DRONES SAS
 Redistribution and use in source and binary forms, with or without 
@@ -130,34 +135,47 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE”.
 
-- SPHINX is released under the Parrot-Sphinx license agreement detailed below:
+- Sphinx is released under the Parrot-Sphinx license agreement detailed below:
 
-“Portions of this software (“Parrot Sphinx”) are copyright © 2019 of Parrot 
+“Portions of this software (“Parrot Sphinx”) are copyright © 2023 of Parrot 
 Drones SAS. All rights reserved.
-Parrot Drones SAS hereby grants a worldwide, non-exclusive, non-transferable, 
-royalty free, and non- sublicensable license to use the Parrot Sphinx for 
-software testing; provided that the above copyright notice, this paragraph, and 
-the following four paragraphs appear in all copies.
-This license becomes effective on the date You download the Parrot Sphinx. This 
-license does not grant You any title or ownership in the Parrot Sphinx.
+
+PARROT hereby grants a worldwide, non-exclusive, non-transferable, royalty 
+free, and non-sublicensable license to use the Parrot Sphinx for software 
+testing; provided that the above copyright notice, this paragraph, and the 
+following paragraphs appear in all copies.
+
+This license becomes effective on the date You download Parrot Sphinx. This 
+license does not grant You any title or ownership in Parrot Sphinx.
+
+You accept that Parrot collects statistical data regarding your use of Parrot 
+Sphinx. No personal data is shared by Parrot Sphinx to Parrot to create 
+statistics, only technical information that will help Parrot maintain Parrot 
+Sphinx, such as Parrot Sphinx version, OS (operating system) versions and GPU 
+(graphics processing units) information. Parrot does not cross-reference this 
+information with other of its sources of information. IP address of the 
+incoming connection is retained in order to identify potential cyberattacks 
+but is not shared to Parrot Sphinx team.
+
 Unless stated otherwise for portions of codes governed by open source licenses 
 conferring a right to modify such portions of codes or except to the extent 
 required or as permitted by compulsory law, modifying, reverse engineering, 
 disassembling or decompiling this Parrot Sphinx, whether in whole or in part, 
 is strictly prohibited.
+
 PARROT SPHINX IS PROVIDED "AS IS”. TO THE EXTENT PERMITTED BY APPLICABLE LAW, 
-PARROT DRONES SAS HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS 
-OR IMPLIED, WITH RESPECT TO THIS PARROT SPHINX, INCLUDING WITHOUT LIMITATION 
-ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, 
-AND NON- INFRINGEMENT.
-TO THE EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL PARROT DRONES SAS 
-BE LIABLE FOR ANY SPECIAL, INDIRECT, IMMATERIAL, INCIDENTAL, EXEMPLARY, 
-PUNITIVE OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES FOR LOSS OF PROFITS, LOSS OF 
-REVENUES, LOSS OR INTERRUPTION OF BUSINESS, OR LOSS OF DATA, ARISING OUT OF OR 
-RELATING TO THE USE OF THE PARROT SPHINX, EVEN IF PARROT DRONES SAS HAS BEEN 
-ADVISED OF OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES. “IMMATERIAL 
-DAMAGE” REFERS TO ANY DAMAGE WHICH IS NEITHER PROPERTY DAMAGE NOR DEATH OR 
-PERSONAL INJURY”.
+PARROT HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, 
+WITH RESPECT TO THIS PARROT SPHINX, INCLUDING WITHOUT LIMITATION ANY IMPLIED 
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND 
+NON-INFRINGEMENT.
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL PARROT BE LIABLE 
+FOR ANY SPECIAL, INDIRECT, IMMATERIAL, INCIDENTAL, EXEMPLARY, PUNITIVE OR 
+CONSEQUENTIAL DAMAGES, OR ANY DAMAGES FOR LOSS OF PROFITS, LOSS OF REVENUES, 
+LOSS OR INTERRUPTION OF BUSINESS, OR LOSS OF DATA, ARISING OUT OF OR RELATING 
+TO THE USE OF THE PARROT SPHINX, EVEN IF PARROT HAS BEEN ADVISED OF OR SHOULD 
+HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES. “IMMATERIAL DAMAGE” REFERS TO 
+ANY DAMAGE WHICH IS NEITHER PROPERTY DAMAGE NOR DEATH OR PERSONAL INJURY”.
 
 2.4 You acknowledge that the SDK may contain Third-Party Components. You 
 understand that all Third- Party Components which You may access through the 
@@ -166,12 +184,14 @@ that PARROT is not liable for any loss or damage that You may experience as a
 result of the use or access of any of those Third Party Components. You agree 
 that PARROT is not responsible for those applications, data, content, or 
 resources.
+
 You should be aware that the Third-Party Components may be protected by 
 intellectual property rights which are owned by the providers (or by other 
 persons or companies on their behalf). You may not modify, rent, lease, loan, 
 sell, distribute or create derivative works based on these Third-Party 
 Components unless You have been specifically given permission to do so by the 
 relevant owners.
+
 You acknowledge that Your use of such Third-Party Components may be subject to 
 separate terms between You and the relevant third party. In that case, the EULA 
 does not affect Your legal relationship with these third parties.
@@ -192,16 +212,16 @@ provides may change without prior notice to You and that future versions of the
 SDK may be incompatible with applications developed on previous versions of the 
 SDK.
 
-## 4. Your Application Product and Use of the SDK
+## 4. Your Application and Use of the SDK
 
-4.1 Your Application Product shall belong to You exclusively.
+4.1 Your Application shall belong to You exclusively.
 
-4.2 You are solely liable for : (a) access to any data, content, or resources 
-that You create, transmit, or display through the Applications Product You 
-develop on or with the SDK, and for the consequences of Your actions by doing 
-so; and (b) any breach of Your obligations under this EULA, any applicable 
-third-party contract or terms of service, or any applicable law, rule, or 
-regulation, and for the consequences of any such breach.
+4.2 You are solely liable for: (a) access to any data, content, or resources 
+that You create, transmit, or display through the Applications You develop on 
+or with the SDK, and for the consequences of Your actions by doing so; and 
+(b) any breach of Your obligations under this EULA, any applicable third-party 
+contract or terms of service, or any applicable law, rule, or regulation, and 
+for the consequences of any such breach.
 
 4.3 YOU ACKNOWLEDGE AND YOU ARE AWARE THAT ANY MODIFICATION OF THE SDK AND/OR 
 ANY APPLICATION MAY ADVERSELY AFFECT THE OPERATION AND CONTROL OF THE PARROT 
@@ -267,7 +287,7 @@ YOU EXPRESSLY UNDERSTAND AND AGREE THAT PARROT, ITS SUBSIDIARIES AND
 AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU UNDER ANY THEORY OF 
 LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR 
 EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU OR ANY THIRD PARTY USING YOUR 
-APPLICATION PRODUCT, INCLUDING ANY LOSS OF DATA, WHETHER OR NOT PARROT OR ITS 
+APPLICATION, INCLUDING ANY LOSS OF DATA, WHETHER OR NOT PARROT OR ITS 
 REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE 
 POSSIBILITY OF ANY SUCH LOSSES ARISING.
 
@@ -279,7 +299,7 @@ EMPLOYEES, AND AGENTS FROM AND AGAINST ANY AND ALL CLAIMS, ACTIONS, SUITS, OR
 PROCEEDINGS, AS WELL AS ANY AND ALL LOSSES, LIABILITIES, DAMAGES, COSTS, AND 
 EXPENSES (INCLUDING REASONABLE ATTORNEYS’ FEES) ARISING OUT OF OR ACCRUING FROM:
 (A) YOUR USE OF THE SDK, INCLUDING THIRD-PARTY COMPONENTS;
-(B) ANY APPLICATION PRODUCT YOU DEVELOP ON OR WITH THE SDK; AND 
+(B) ANY APPLICATION; AND 
 (C) YOUR NONCOMPLIANCE WITH ANY TERM OF THIS EULA.
 
 ## 12. Injunctive relief
@@ -300,7 +320,7 @@ issued by governments, as the case may be.
 
 Without derogating from the generality of the foregoing, You represent that You 
 are not a member of any denied person list, debarred list or any other similar 
-lists published by any government where it intends to use the SDK and that it 
+lists published by any government where You intend to use the SDK and that You 
 will not Use, export, re-export or transfer the SDK to territories, 
 destinations, companies, or individuals in violation of U.S. or E.U. embargoes 
 or trade sanctions. You will indemnify, defend and hold PARROT harmless from 
@@ -330,7 +350,7 @@ relief as provided for in Section 12 of this EULA.
 
 **Entire agreement.** This EULA, together with any amendments and any 
 additional agreements You may enter into with PARROT in connection with the use 
-of SDK, shall constitute the entire agreement between the parties concerning 
+of SDK, shall constitute the entire agreement between the Parties concerning 
 the subject matter hereof.
 
 **Amendment.** No amendment or modification of this EULA is binding unless it 
@@ -344,7 +364,7 @@ the original intent of the Parties and remain valid, legal, and enforceable, or
 PARROT may at its option terminate this EULA.
 
 **Language.** The controlling language of this EULA is English. Communications 
-under or in connection with this EULA shall be in, the English language. Any 
+under or in connection with this EULA shall be in the English language. Any 
 translation into any other language shall not be an official
 version thereof, and in the event of any conflict in interpretation between the 
 English version and such translation, the English version shall control.
